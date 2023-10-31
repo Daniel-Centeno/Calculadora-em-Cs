@@ -13,3 +13,6 @@
 /home/daniel/Documentos/GitHub/Calculadora-em-Cs/code/Calculadora/bin/Debug/Calculadora.exe
 /home/daniel/Documentos/GitHub/Calculadora-em-Cs/code/Calculadora/obj/x86/Debug/Calculadora.csproj.AssemblyReference.cache
 /home/daniel/Documentos/GitHub/Calculadora-em-Cs/code/Calculadora/obj/x86/Debug/Calculadora.csproj.CoreCompileInputs.cache
+/home/daniel/Documentos/GitHub/Calculadora-em-Cs/code/Calculadora/bin/Debug/Calculadora.pdb
+/home/daniel/Documentos/GitHub/Calculadora-em-Cs/code/Calculadora/obj/x86/Debug/Calculadora.exe
+/home/daniel/Documentos/GitHub/Calculadora-em-Cs/code/Calculadora/obj/x86/Debug/Calculadora.pdb
