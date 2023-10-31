@@ -73,6 +73,29 @@ namespace Calculadora
                             Console.ReadLine();
                         }
                         break;
+                    //multiplicação
+                    case "mul":
+                        Console.Clear();
+                        Console.WriteLine("Digite o primeiro número que quer multiplicar");
+                        string mns1 = Console.ReadLine();
+                        Console.Clear();
+                        Console.WriteLine("Digite o segundo número que quer multiplicar");
+                        string mns2 = Console.ReadLine();
+                        Console.Clear();
+                        try
+                        {
+                            double res = Convert.ToDouble(mns1);
+                            res *= Convert.ToDouble(mns2);
+                            Console.WriteLine("O resultado é:");
+                            Console.WriteLine(res);
+                            Console.ReadLine();
+                        }
+                        catch
+                        {
+                            Console.WriteLine("ops, algo deu errado");
+                            Console.ReadLine();
+                        }
+                        break;
                     case "ext":
                         //Sai do programa
                         running = false;
