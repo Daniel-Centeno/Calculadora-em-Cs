@@ -96,6 +96,29 @@ namespace Calculadora
                             Console.ReadLine();
                         }
                         break;
+                    //divisão
+                    case "div":
+                        Console.Clear();
+                        Console.WriteLine("Digite o primeiro número que quer dividir");
+                        string dns1 = Console.ReadLine();
+                        Console.Clear();
+                        Console.WriteLine("Digite o segundo número que quer dividir");
+                        string dns2 = Console.ReadLine();
+                        Console.Clear();
+                        try
+                        {
+                            double res = Convert.ToDouble(dns1);
+                            res /= Convert.ToDouble(dns2);
+                            Console.WriteLine("O resultado é:");
+                            Console.WriteLine(res);
+                            Console.ReadLine();
+                        }
+                        catch
+                        {
+                            Console.WriteLine("ops, algo deu errado");
+                            Console.ReadLine();
+                        }
+                        break;
                     case "ext":
                         //Sai do programa
                         running = false;
