@@ -50,6 +50,29 @@ namespace Calculadora
                             Console.ReadLine();
                         }
                         break;
+                    //subtração
+                    case "sub":
+                        Console.Clear();
+                        Console.WriteLine("Digite o primeiro número que quer subtrair");
+                        string sns1 = Console.ReadLine();
+                        Console.Clear();
+                        Console.WriteLine("Digite o segundo número que quer subtrair");
+                        string sns2 = Console.ReadLine();
+                        Console.Clear();
+                        try
+                        {
+                            double res = Convert.ToDouble(sns1);
+                            res -= Convert.ToDouble(sns2);
+                            Console.WriteLine("O resultado é:");
+                            Console.WriteLine(res);
+                            Console.ReadLine();
+                        }
+                        catch
+                        {
+                            Console.WriteLine("ops, algo deu errado");
+                            Console.ReadLine();
+                        }
+                        break;
                     case "ext":
                         //Sai do programa
                         running = false;
