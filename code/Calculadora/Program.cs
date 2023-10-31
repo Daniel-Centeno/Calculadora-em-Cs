@@ -11,7 +11,9 @@ namespace Calculadora
 
             while (running == true)
             {
+                //limpa a tela
                 Console.Clear();
+
                 //Mensagem de boas vindas / lista de comandos
                 Console.WriteLine("Ola! digite a operação que deseja fazer");
                 Console.WriteLine("add - soma");
@@ -26,6 +28,28 @@ namespace Calculadora
 
                 switch (answer)
                 {
+                    //soma
+                    case "add":
+                        Console.Clear();
+                        Console.WriteLine("Digite o primeiro número que quer somar");
+                        string ans1 = Console.ReadLine();
+                        Console.Clear();
+                        Console.WriteLine("Digite o segundo número que quer somar");
+                        string ans2 = Console.ReadLine();
+                        Console.Clear();
+                        try
+                        {
+                            double res = Convert.ToDouble(ans1);
+                            res += Convert.ToDouble(ans2);
+                            Console.WriteLine("O resultado é:");
+                            Console.WriteLine(res);
+                            Console.ReadLine();
+                        }
+                        catch{
+                            Console.WriteLine("ops, algo deu errado");
+                            Console.ReadLine();
+                        }
+                        break;
                     case "ext":
                         //Sai do programa
                         running = false;
@@ -33,6 +57,7 @@ namespace Calculadora
                         Console.WriteLine("Muito obrigado pela preferência, volte sempre!");
                         break;
                     default:
+                        //Mensagem de erro, caso a mensagem não  seja reconhecida
                         Console.Clear();
                         Console.WriteLine("Desculpe, não entendi muito bem, talvez tenha havido um erro de digitação");
                         Console.WriteLine("Aperte Enter para continuar");
