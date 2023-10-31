@@ -1,0 +1,12 @@
+/home/daniel/Área de Trabalho/github/Calculadora/code/code/Calculadora/bin/Debug/Calculadora.exe
+/home/daniel/Área de Trabalho/github/Calculadora/code/code/Calculadora/bin/Debug/Calculadora.pdb
+/home/daniel/Área de Trabalho/github/Calculadora/code/code/Calculadora/obj/x86/Debug/Calculadora.csproj.AssemblyReference.cache
+/home/daniel/Área de Trabalho/github/Calculadora/code/code/Calculadora/obj/x86/Debug/Calculadora.csproj.CoreCompileInputs.cache
+/home/daniel/Área de Trabalho/github/Calculadora/code/code/Calculadora/obj/x86/Debug/Calculadora.exe
+/home/daniel/Área de Trabalho/github/Calculadora/code/code/Calculadora/obj/x86/Debug/Calculadora.pdb
+/home/daniel/Área de Trabalho/github/Calculadora/code/Calculadora/bin/Debug/Calculadora.exe
+/home/daniel/Área de Trabalho/github/Calculadora/code/Calculadora/bin/Debug/Calculadora.pdb
+/home/daniel/Área de Trabalho/github/Calculadora/code/Calculadora/obj/x86/Debug/Calculadora.csproj.AssemblyReference.cache
+/home/daniel/Área de Trabalho/github/Calculadora/code/Calculadora/obj/x86/Debug/Calculadora.csproj.CoreCompileInputs.cache
+/home/daniel/Área de Trabalho/github/Calculadora/code/Calculadora/obj/x86/Debug/Calculadora.exe
+/home/daniel/Área de Trabalho/github/Calculadora/code/Calculadora/obj/x86/Debug/Calculadora.pdb
