@@ -20,7 +20,7 @@ namespace Calculadora
                 Console.WriteLine("sub - para subtrair");
                 Console.WriteLine("mul - multiplicar");
                 Console.WriteLine("div - dividir");
-                Console.WriteLine("rai - tira  a raiz do número");
+                Console.WriteLine("rai - tira a raiz quadrada do número");
                 Console.WriteLine("ext - sair do programa");
 
                 //Guarda a resposta numa string
@@ -111,6 +111,26 @@ namespace Calculadora
                             res /= Convert.ToDouble(dns2);
                             Console.WriteLine("O resultado é:");
                             Console.WriteLine(res);
+                            Console.ReadLine();
+                        }
+                        catch
+                        {
+                            Console.WriteLine("ops, algo deu errado");
+                            Console.ReadLine();
+                        }
+                        break;
+                    //raiz
+                    case "rai":
+                        Console.Clear();
+                        Console.WriteLine("Digite o número que quer tirar a raiz quadrada");
+                        string rns1 = Console.ReadLine();
+                        Console.Clear();
+                        try
+                        {
+                            double res = Convert.ToDouble(rns1); //Converte a resposta em numero
+                            double resultado = Convert.ToSingle(Math.Sqrt(res)); //Tira a raiz do numero
+                            Console.WriteLine("O resultado é:");
+                            Console.WriteLine(resultado);
                             Console.ReadLine();
                         }
                         catch
